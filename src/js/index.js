@@ -8,7 +8,7 @@ fetch('https://school-app-server-w1rb.onrender.com/api/posts')
         data.forEach(i => {
             html += `<div><h2>${i.title}</h2><p>${i.body}</p></div>`
         })
-        news.innerHTML = data;
+        news.innerHTML = html;
     })
     .catch(err => {
         news.innerHTML = '<div class="news-text">Нет событий</div>'
