@@ -104,3 +104,9 @@ button {
     border: none;
     margin-left: 20px;
 }
+
+.news-text {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
