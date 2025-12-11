@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <title>Павел Фенев</title>
+    <script src="./src/js/index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href=''>
+            <img src='./src/images/logo.png' alt="logo" class="logo-image">
+        </a>
+        <div class="header-main">
+            <nav>
+                <ul class="list nav-links">
+                    <li>
+                        <a id="main" href="/" class="nav-link nav-link-selected">Главная</a>
+                    </li>
+                    <li>
+                        <a id="about" href="/pages/about" class="nav-link">Обо мне</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href='/pages/settings'>
+                <button class="settings-button">
+                    <img class="settings-icon" src="./src/svg/settings-icon.svg" alt="settings">
+                </button>
+            </a>
+        </div>
+    </header>
+    <main class="main">
+        <h1 id="hello">Привет, это сайт о моих веселых днях в школе</h1>
+        <p id="text" class="first-text">
+            Тут должно быть много всяких новостей (ну или нет).
+            Все они хранятся в БД на крутом сервере.
+            А добавляет их туда замечательный админ.
+        </p>
+        <h2 id="news">Последние события</h2>
+    </main>
+    <footer class="footer">
+        <div>
+            <h3 id="communication" class="footer-title">Связаться со мной:</h3>
+            <ul class="list">
+                <li class="footer-com-item">+7 123 456 78 90</li>
+                <li class="footer-com-item">amorokstar@popstar.ru</li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <ul class="list footer-links-list">
+                <li>
+                    <a href="https://vk.com/stepoloxendro7">
+                        <img src="./src/svg/vk-icon.svg" alt="VK" class="footer-img">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://web.telegram.org/k/#@flash_ege">
+                        <img src="./src/svg/tg-icon.svg" alt="Telegram" class="footer-img">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/KrokodilGena07">
+                        <img src="./src/svg/github-icon.svg" alt="GitHub" class="footer-img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>&copy; Copyright 2025</p>
+    </footer>
+</body>
+</html>

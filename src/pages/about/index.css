@@ -1,0 +1,15 @@
+.main {
+    padding: 30px 10vw;
+}
+
+.main-text {
+    font-size: x-large;
+}
+
+.mr-b {
+    margin-bottom: 20px;
+}
+
+.achieve-list {
+    list-style-position: inside;
+}
